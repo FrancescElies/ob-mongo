@@ -1,14 +1,14 @@
 * Org Babel Mongo
 
-Support for MongoDB queries in org-mode blocks, like so:
+Support for MongoDB queries in org-mode blocks, like so (ignore //):
 
-#+BEGIN_EXAMPLE
-#+BEGIN_SRC mongo :db staff
-db.employees.count({country: "gb"});
-#+END_SRC
+#+BEGIN_EXAMPLE org
+// #+BEGIN_SRC mongo :db staff
+// db.employees.count({country: "gb"});
+// #+END_SRC
 
-#+RESULTS:
-: 15
+// #+RESULTS:
+// : 15
 #+END_EXAMPLE
 
 ** Installation
